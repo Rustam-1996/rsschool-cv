@@ -1,3 +1,103 @@
-h1 {
-   color: blue;
+* {
+   font-family: 'Nuosu SIL', serif;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+}
+
+.header {
+   margin-bottom: 15px;
+   background-color: rgb(162, 205, 240);
+
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+.nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style: none;
+}
+
+.link {
+   text-decoration: none;
+   color: black;
+   transition: .5s;
+}
+
+.link:hover {
+   color: #07f5f5;
+   text-decoration: underline;
+
+}
+
+.nav-link {
+   padding: 0 20px;
+   line-height: 50px;
+   text-decoration: none;
+   color: white;
+}
+
+.section-title-main {
+   font-size: 45px;
+}
+
+.section-title {
+   color: rgb(118, 198, 235);
+}
+
+.profile {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.contacts-item {
+   list-style: none;
+   padding-left: 0px;
+}
+
+.main-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.section {
+   width: 50%;
+   border-top: 2px solid rgb(231, 231, 160);
+}
+
+section.photo {
+   border: none;
+   margin-bottom: 20px;
+}
+
+.footer {
+   background-color: rgb(231, 231, 160);
+   margin-top: 15px;
+}
+
+.footrer-links {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
 }
