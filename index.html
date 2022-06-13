@@ -6,10 +6,118 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>My CV</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <h1> Hello World, it is my project</h1>
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#contacts" class="link nav-link">Contacts</a></li>
+               <li class="nav-item"><a href="#summary" class="link nav-link">Summary</a></li>
+               <li class="nav-item"><a href="#skills" class="link nav-link">My skills</a></li>
+               <li class="nav-item"><a href="#code" class="link nav-link">Code example</a></li>
+               <li class="nav-item"><a href="#education" class="link nav-link">Education and courses</a></li>
+               <li class="nav-item"><a href="#languages" class="link nav-link">Languages</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <main class="main">
+
+      <div class="container">
+         <section class="section  photo">
+            <div class="profile">
+               <img src="./assets/IMG/Photo2.png" alt="Myphoto" width="280" height="320">
+               <div class="title-profile">
+                  <h1 class="section-title section-title-main"> Rustam Mamedau</h1>
+                  <h2> FRONT-END DEVELOPER</h2>
+               </div>
+            </div>
+         </section>
+
+         <div class="container main-container">
+            <section class="section" id="contacts">
+               <h2 class="section-title"> Contacts</h2>
+               <ul class="contacts-item">
+                  <li> <img src="./assets/IMG/address.png" alt="logo-adress" width="20" height="20">
+                     Minsk, Belarus</li>
+                  <li> <img src="./assets/IMG/phone.png" alt="logo-phone" width="20" height="20">
+                     +375(25)-750-43-37</li>
+                  <li><img src="./assets/IMG/discord.png" alt="logo-adress" width="20" height="20">
+                     Rustam#6783 </li>
+                  <li><img src="./assets/IMG/mail.png" alt="logo-mail" width="20" height="20">
+                     rustammamedov19.06.96@gmail.com</li>
+                  <li><img src="./assets/IMG/git-logoo.png" alt="logo-git" width="20" height="20"><a
+                        href="https://github.com/Rustam-1996" class="link" title="Git-hub"> Rustam-1996</a></li>
+               </ul>
+            </section>
+
+            <section class="section" id="summary">
+               <h2 class="section-title"> Summary</h2>
+               <p> I am 26 years old. I have been working as a psychiatrist for three years. But now I am intending to
+                  change my proffession by using RS School.</p>
+            </section>
+
+            <section class="section" id="skills">
+               <h2 class="section-title"> My skills</h2>
+               <ul>
+                  <li>HTML5, CSS3 - basics </li>
+                  <li>Git, GitHub</li>
+                  <li>VS Code</li>
+               </ul>
+            </section>
+
+            <section class="section" id="code">
+               <h2 class="section-title">Code example</h2>
+               <pre>
+            <code>
+            function multiply(a, b){
+            a * b
+            }
+            </code>
+           </pre>
+            </section>
+
+            <section class="section" id="education">
+               <h2 class="section-title">Education and courses</h2>
+               <ul>
+                  <li>Belarusian State Medical University</li>
+                  <li>Basics HTML&CSS on the NETOLOGY.RU</li>
+               </ul>
+            </section>
+
+            <section class="section" id="languages">
+               <h2 class="section-title">Languages</h2>
+               <ul>
+                  <li>English: A2</li>
+                  <li>Azerbaijan: C1</li>
+                  <li>Turkish: A2</li>
+                  <li>Russian: nativ</li>
+               </ul>
+            </section>
+
+         </div>
+      </div>
+   </main>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footrer-links">
+            <div> <a href="https://github.com/Rustam-1996" target="_blank"> <img src="./assets/IMG/git-logoo.png"
+                     alt="logo-git" title="Git-hub" width="80" height="80"></a></div>
+            <div>2022</div>
+            <div> <a href="https://rs.school/js/" target="_blank"> <img src="./assets/IMG/rs_school_js.svg"
+                     alt="Rss-logo" title="JS course" width="140" height="60"> </a></div>
+         </div>
+      </div>
+   </footer>
+
 </body>
 
 </html>
